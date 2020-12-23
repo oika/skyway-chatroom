@@ -1,0 +1,33 @@
+.contaner {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    height: auto;
+    margin: 4px;
+}
+
+.grid {
+    display: grid;
+}
+
+.screen {
+    position: relative;
+    border: 1px solid #CCC;
+}
+
+.screen video {
+    width: 100%;
+}
+
+.user-name {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    margin-left: 4px;
+    margin-bottom: 5px;
+}
